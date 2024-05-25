@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(47, 46, 54);
+}
+#Cabecalho {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 70px;
+    width: 100vw;
+}
