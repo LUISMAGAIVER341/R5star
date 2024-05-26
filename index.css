@@ -1,12 +1,59 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
+
+
+
 body {
     margin: 0px;
     padding: 0px;
     background-color: rgb(47, 46, 54);
 }
 #Cabecalho {
-    margin: 0px;
+    left: 0px;
+    z-index: 0;
+    top: 0px;
+    position: absolute;
+    margin: 0 auto;
     padding: 0px;
     background-color: black;
     height: 70px;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+#title {
+    font-size: 200%;
+    font-weight: 800;
+    text-align: center;
+    width: 368px;
+    position: absolute; 
+    margin: auto;
+    padding: 0px;
+    z-index: 1;
+    color: white;
+    font-family: 'Google Sans', sans-serif;
+}
+#capa {
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    border-radius: 10px;
+}
+#about {
+    position: absolute;
+    font-weight: 900;
+    font-size: 150%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    top: 100px;
+    width: 700px;
+    left: 260px;
+    color: white;
+    font-family: 'Google Sans', sans-serif;
 }
