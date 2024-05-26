@@ -106,3 +106,13 @@ body {
     width: 70px;
     height: 60px;
 }
+#Sinopse {
+    font-family: 'Google Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 430px;
+    left: 30px;
+    font-weight: 700;
+    color: white;
+}
