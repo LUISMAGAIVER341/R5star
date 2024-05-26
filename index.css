@@ -15,7 +15,7 @@ body {
     position: absolute;
     margin: 0 auto;
     padding: 0px;
-    background-color: black;
+    background-color: rgb(30, 29, 36);
     height: 70px;
     width: 100vw;
     display: flex;
@@ -56,4 +56,53 @@ body {
     left: 260px;
     color: white;
     font-family: 'Google Sans', sans-serif;
+}
+#container {
+    display: flex;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 700px;
+    left: 260px;
+    height: 150px;
+    background-color: rgb(30, 29, 34);
+    top: 250px;
+    border-radius: 10px;
+}
+#bought {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 30px;
+    line-height: 150px;
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+}
+#K {
+    line-height: 60px;
+    position: absolute;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    width: 80px;
+    right: 30px;
+    border-color: transparent;
+    border-radius: 30px;
+    font-size: 125%;
+    background-color: rgb(54, 53, 61);
+    color: white;
+    font-family: 'Google Sans', sans-serif;
+}
+#Kobo {
+    border-color: transparent;
+    
+    top: 45px;
+    position: absolute;
+    line-height: 60px;
+    right: 30px;
+    width: 70px;
+    height: 60px;
 }
